@@ -1,7 +1,7 @@
 fun checkPrime(num n){
     if n ==1 OR n == 2
         return true
-    // testing until square rool is enough
+    // Checking until square rool is enough.
     for i = 3;i< sqrt(n) ; i += 2
         if(n% i == 0)
             return false
