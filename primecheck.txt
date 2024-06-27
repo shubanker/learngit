@@ -1,4 +1,5 @@
 fun checkPrime(num n){
+    // return true for known constants.
     if n ==1 OR n == 2
         return true
     // Checking until square rool is enough.
